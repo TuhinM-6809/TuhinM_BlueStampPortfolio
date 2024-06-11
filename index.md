@@ -1,5 +1,5 @@
-# Arduino Starter Project
-The Arduino Starter Project provided a basic foundation for learning soldering and coding with Arduino. As part of the project, I built a Proto Shield for the Arduino UNO. This Proto Shield featured a reset button, resistors, LEDs, and rails for wire inputs. Using the Proto Shield, the Arduino UNO, and breadboard I built a circuit with a LED that was controlled by a button. I coded this button and LED using Arduino IDE, an application that uploaded code to the Arduino UNO. I used conditional statements to detect button presses and translate the result gained into a signal to turn the LED on or off.
+# Gesture Controlled Robot
+
 
 <!--//You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
 ```HTML
@@ -89,3 +89,50 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+
+# Arduino Starter Project
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+The Arduino Starter Project provided a basic foundation for learning soldering and coding with Arduino. As part of the project, I built a Proto Shield for the Arduino UNO. This Proto Shield featured a reset button, resistors, LEDs, and rails for wire inputs. Using the Proto Shield, the Arduino UNO, and breadboard I built a circuit with a LED that was controlled by a button. I coded this button and LED using Arduino IDE, an application that uploaded code to the Arduino UNO. I used conditional statements to detect button presses and translate the result gained into a signal to turn the LED on or off.
+
+# Code
+
+```c++
+//Defining the LED position on the Breadboard
+#define LED_PIN 8
+//Defining the Button position on the Breadboard
+#define BUTTON_PIN 7
+
+void setup() {
+  //Defining the LED as the Output
+  pinMode(LED_PIN, OUTPUT);
+  //Defining the Button as the Input
+  pinMode(BUTTON_PIN, INPUT);
+}
+void loop() {
+  if (digitalRead(BUTTON_PIN) == HIGH) { //If the button is pressed
+    digitalWrite(LED_PIN, HIGH); //Turn on the LED
+  }
+  else { //If the button is not pressed
+    digitalWrite(LED_PIN, LOW); //Keep the LED off
+  }
+}
+```
+
+# Bill of Materials
+Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+
+| **Part** | **Note** | **Price** | **Link** |
+|:--:|:--:|:--:|:--:|
+| Arduino Uno | Control the circuit power and ground | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| USB A -> B cable | Connection to computer | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Proto Shield | Used to make easier wire connections | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Breadboard | Used to hold LED, Button, and wiring | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Momentray Button | Used to control the LED | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| LEDs | Used to display result | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Resistors | Used in the circuit | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Male to Male Connectors | Used to connect electronics | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
