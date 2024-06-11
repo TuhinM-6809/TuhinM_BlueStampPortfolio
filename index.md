@@ -1,7 +1,7 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Arduino Starter Project
+The Arduino Starter Project provided a basic foundation for learning soldering and coding with Arduino. As part of the project, I built a Proto Shield for the Arduino UNO. This Proto Shield featured a reset button, resistors, LEDs, and rails for wire inputs. Using the Proto Shield, the Arduino UNO, and breadboard I built a circuit with a LED that was controlled by a button. I coded this button and LED using Arduino IDE, an application that uploaded code to the Arduino UNO. I used conditional statements to detect button presses and translate the result gained into a signal to turn the LED on or off.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+//You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
