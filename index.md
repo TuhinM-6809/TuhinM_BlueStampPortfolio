@@ -2,7 +2,7 @@
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Tuhin M | Bellarmine College Preparatory | Electrical Engineering and CS | Rising Sophomore
+| Tuhin M | Bellarmine College Preparatory | Electrical Engineering and Computer Science | Rising Sophomore
 
 # Gesture Controlled Robot
 
