@@ -129,9 +129,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino Uno | Control the circuit power and ground | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| USB A -> B cable | Connection to computer | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Arduino Proto Shield | Used to make easier wire connections | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Breadboard | Used to hold LED, Button, and wiring | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| USB A -> B cable | Connection to computer | $Price | <a href="https://www.amazon.com/Amazon-Basics-External-Gold-Plated-Connectors/dp/B00NH13DV2?th=1"> Link </a> |
+| Arduino Proto Shield | Used to make easier wire connections | $Price | <a href="https://learn.adafruit.com/adafruit-proto-shield-arduino"> Link </a> |
+| Breadboard | Used to hold LED, Button, and wiring | $Price | <a href="https://www.digikey.com/en/products/detail/dfrobot/FIT0096/7597069?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_High%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20222717502_adg-_ad-__dev-c_ext-_prd-7597069_sig-CjwKCAjw65-zBhBkEiwAjrqRMI_n1aAgL784j99C-KhXqSOPK8ByCWra4Myz7QmtGApcpn9UfPkQYRoCAbgQAvD_BwE&gad_source=1&gclid=CjwKCAjw65-zBhBkEiwAjrqRMI_n1aAgL784j99C-KhXqSOPK8ByCWra4Myz7QmtGApcpn9UfPkQYRoCAbgQAvD_BwE"> Link </a> |
 | Momentray Button | Used to control the LED | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | LEDs | Used to display result | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Resistors | Used in the circuit | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
