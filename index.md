@@ -78,9 +78,21 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino UNO | What the item is used for | $25.81 | <a href="https://www.newark.com/arduino/a000066/dev-board-atmega328-arduino-uno/dp/78T1601?COM=ref_hackster&CMP=Hackster-NA-project-94b13d-Jun-24"> Link </a> |
+| Arduino Nano R3 | What the item is used for | $23.23 | <a href="https://www.newark.com/arduino/a000005/dev-board-atmega328-arduino-nano/dp/13T9275?COM=ref_hackster&CMP=Hackster-NA-project-e1c9f9-Jun-24"> Link </a> |
+| Inertial Measurement Unit (IMU) (6 deg of freedom) | What the item is used for | $5.99 | <a href="https://www.amazon.com/dp/B008BOPN40/?tag=octopart00-20"> Link </a> |
+| SparkFun Dual H-Bridge motor drivers L298 | What the item is used for | $7.21 | <a href="https://cpc.farnell.com/stmicroelectronics/l298n/dual-full-bridge-driver-4a-o-p/dp/SCL298?CMP=EU-Avnet-PLP-cross-sell"> Link </a> |
+| Solderless Breadboard Half Size | What the item is used for | $4.96 | <a href="https://www.newark.com/adafruit/64/bread-board-prototype-electronics/dp/53W6131"> Link </a> |
+| HC-05 Bluetooth Module | What the item is used for | $10.39 | <a href="https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR"> Link </a> |
+| Male/Male Jumper Wires | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Male/Female Jumper Wires | What the item is used for | $4.11 | <a href="https://www.newark.com/adafruit/826/wire-gauge-28awg/dp/88W2802?COM=ref_hackster"> Link </a> |
+| DC Motor, 12 V | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Pimoroni Maker Essentials - Micro-motors & Grippy Wheels | What the item is used for | $33.79 | <a href="https://shop.pimoroni.com/products/maker-essentials-micro-motors-grippy-wheels?variant=1418711662602"> Link </a> |
+| Rocker Switch, SPST | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 9V Battery Clip | What the item is used for | $0.309 | <a href="https://www.newark.com/keystone/233/battery-strap-9v-wire-lead/dp/22C4351"> Link </a> |
+| 9V battery (generic) | What the item is used for | $1.54 | <a href="https://www.tequipment.net/Techni-Pro/TNP-AL9V-ea/Batteries-and-Chargers/?Source=googleshopping&gad_source=1&gclid=CjwKCAjwjqWzBhAqEiwAQmtgT4aHyiP0JiLkauY-n9bLEDgScQHZIqa6-ZshwL10lhdLS98RW5EJBBoC1nQQAvD_BwE"> Link </a> |
+| Battery Holder, 18650 x 2 | What the item is used for | $9.48 | <a href="https://www.newark.com/keystone/1048/battery-holder-18650-li-ion-2cell/dp/56T2029?COM=ref_hackster&CMP=Hackster-NA-project-94b13d-Jun-24"> Link </a> |
+| Arduino IDE | What the item is used for | $0.00 | <a href="https://www.arduino.cc/en/software"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
