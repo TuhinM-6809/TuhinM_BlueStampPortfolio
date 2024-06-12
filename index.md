@@ -69,9 +69,9 @@ void loop() {
 ```
 -->
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
+<!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
+-->
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino UNO | What the item is used for | $25.81 | <a href="https://www.newark.com/arduino/a000066/dev-board-atmega328-arduino-uno/dp/78T1601?COM=ref_hackster&CMP=Hackster-NA-project-94b13d-Jun-24"> Link </a> |
@@ -89,15 +89,16 @@ Don't forget to place the link of where to buy each component inside the quotati
 | 9V battery (generic) | What the item is used for | $1.54 | <a href="https://www.tequipment.net/Techni-Pro/TNP-AL9V-ea/Batteries-and-Chargers/?Source=googleshopping&gad_source=1&gclid=CjwKCAjwjqWzBhAqEiwAQmtgT4aHyiP0JiLkauY-n9bLEDgScQHZIqa6-ZshwL10lhdLS98RW5EJBBoC1nQQAvD_BwE"> Link </a> |
 | Battery Holder, 18650 x 2 | What the item is used for | $9.48 | <a href="https://www.newark.com/keystone/1048/battery-holder-18650-li-ion-2cell/dp/56T2029?COM=ref_hackster&CMP=Hackster-NA-project-94b13d-Jun-24"> Link </a> |
 | Arduino IDE | What the item is used for | $0.00 | <a href="https://www.arduino.cc/en/software"> Link </a> |
-<!--
-# Other Resources/Examples
+
+
+<!--# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
--->
+To watch the BSE tutorial on how to create a portfolio, click here.-->
+
 # Arduino Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MTDgItoHk8w?si=aqH-RLGaW8Hp8VCv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
