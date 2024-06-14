@@ -197,13 +197,9 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 | Arduino IDE | Used to code the functionalities of the robot | $0.00 | <a href="https://www.arduino.cc/en/software"> Link </a> |
 
 
-<!--# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.-->
+Other Resources/Examples
+- [Team PSI](https://www.youtube.com/watch?v=OkHR1BZCcqA)
+- [Hackster.io](https://www.hackster.io/embeddedlab786/hand-gesture-control-robot-via-bluetooth-94b13d#story)
 
 # Arduino Starter Project: 6/12/24
 
