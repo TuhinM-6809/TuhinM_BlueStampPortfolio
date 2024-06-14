@@ -205,7 +205,7 @@ One of the best parts about Github is that you can view how other people set up 
 
 To watch the BSE tutorial on how to create a portfolio, click here.-->
 
-# Arduino Starter Project
+# Arduino Starter Project: 6/12/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MTDgItoHk8w?si=aqH-RLGaW8Hp8VCv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
