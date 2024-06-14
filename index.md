@@ -36,40 +36,63 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  My first milestone was purely mechanical and hardware based. I wanted to completely build all of the electrical and mechanical parts of the robot car. In order to accomplish this, I first attached four motors to a baseplate and wired them to the motor controller. Then, I connected the motor controller to the Arduino Uno and connected the battery pack to the Arduino Uno. Then, I connected all of the motor wires to teh Arduino Uno and the motor controller. Once I did that, I attached the wheels and fastened the top plate to the robot. 
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
--->
+  The technical side of what is happening within the robot is that the power from the battery pack travels to the Arduino Uno which provides power to the motor controller. Then, the motor controller provides power to the motors, enabling them to run. 
+  
+  Some challenges I faced was that the motors had some trouble providing enough torque to spin the wheels. I solved this problem by letting them warmup before I attached the wheels. Another problem I faced was that one of the motors wasn't spinning. After debugging for a while, I discovered that it was because the motor wires weren't soldered properly together. Once I fixed this, I ran some expiremental code to test whether the motors would spin and the all succesfully spun. 
+  
+  Going forward, I plan to complete all of the hardware for the gesture controller. Then, I want to run the code and test whether or not the car will move according to the gesture detection. Once I complete all of these steps and ensure that the robot is fully functional with the gesture controller, I plan to add some extra features like side to side movement.
+
+
 # Schematics 
 
 ![Headstone Image](how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png)
 
-<!--
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
+Test Code for Running Motors
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+//Test Code for Running Motors
+int In1 = 7; //Defining Digital Pins for Motors
+int In2 = 8;
+int In3 = 4;
+int In4 = 12;
+int ENA = 5; //Defining ENA for both sides
+int ENA2 = 6;
+int SPEED = 210; //Defining the speed of the wheels
+
+void setup()
+{
+
+pinMode(In1,OUTPUT); //Designating the motors as outputs
+pinMode(In2,OUTPUT);
+pinMode(In3,OUTPUT);
+pinMode(In4,OUTPUT);
+pinMode(ENA,OUTPUT);
+pinMode(ENA2,OUTPUT);
+
+digitalWrite(In1,HIGH); //Setting the motor direction, either HIGH or LOW
+digitalWrite(In2,LOW);
+digitalWrite(In3,HIGH);
+digitalWrite(In4,LOW);
+
+analogWrite(ENA,SPEED); //Setting the speed for both sides
+analogWrite(ENA2,SPEED);
+
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
 
 }
 ```
--->
+
 # Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
