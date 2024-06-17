@@ -41,6 +41,10 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+![Headstone Image](how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png)
+
+![Headstone Image](how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png)
+
   My first milestone was purely mechanical and hardware based. I wanted to completely build all of the electrical and mechanical parts of the robot car. In order to accomplish this, I first attached four motors to a baseplate and wired them to the motor controller. Then, I connected the motor controller to the Arduino Uno and connected the battery pack to the Arduino Uno. Then, I connected all of the motor wires to teh Arduino Uno and the motor controller. Once I did that, I attached the wheels and fastened the top plate to the robot. 
 
   The technical side of what is happening within the robot is that the power from the battery pack travels to the Arduino Uno which provides power to the motor controller. Then, the motor controller provides power to the motors, enabling them to run. 
