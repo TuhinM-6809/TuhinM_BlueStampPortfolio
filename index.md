@@ -97,7 +97,7 @@ void loop()
 }
 ```
 
-# Code for the Robot
+***Code for the Robot***
 ```c++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
