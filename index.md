@@ -10,33 +10,32 @@
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  
-# Final Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+-->
+# Final Milestone 6/19/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+  My final milestone was to succefully connect the gesture controller to the robot car and ensure that all functions were working properly. I was mainly focusing on the software section for this milestone. I accomplished this by first uploading the robot code to the robot and then the hand gesture code to the robot controller. Following that, I uploaded code to each bluetooth module in order to pair them together
+
+  The technical side of what I wrote as part of my code is as follows. First, on the hand gesture side, I printed the accelerometer values from the bluetooth module into the Serial monitor. The accelerometer only gave XYZ values and I needed to convert those values into something the bluetooth module at the other end could use. I accomplished this issue by using if statements. I set a certain angle value as a direction. (eg. 45 degrees forward tilt equals R) As a result, instead of worrying about the three different values, I only had to worry about one character. I did this four times, for each direction. Next, I uploaded code to the robot car that recieved data from the controller, and then activated motors using if statements in order to determine the direction.
+
+  **THE BIGGEST HURDLE OF THE PROJECT**: Bluetooth...
+    Getting the bluetooth connection between the robot module and the breadboard module was one of the most difficult aspects of this projects. In order to get the two modules paired, I had to research a lot about bluetooth modules, Arduino Nanos, and Arduino UNOs. Eventually, by crossreferencing two sources, I was able to succesfully set the gesture module as the master controller, and the robot module as the recipient of the data. Once I was able to do this, I was able to seamlessly integrate both the robot code and the gesture controller code into one master project. This Bluetooth journey exposed me to Serial Monitors and AT mode. These two attributes are the ones that determine master controllers and pairing for HC05 Bluetooth modules. After following a longwinded process of figuring out how to use AT mode and the Serial Monitor, I was able to succesfully pair the modules together.
+
+  Going forward, I plan on adding some modifications to my project. One idea I have is to add a sensor that will detect whether or not the robot will run into obstacles. Then, the sensor will trigger an autonomous override in the code which will stop the robot from crashing. Another idea I had was to add LED headlights to the robot that would be toggleable or automatically turn on in the dark.
 
 
+# Second Milestone 6/18/24
 
-# Second Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5GENIZWkGWU?si=ucHo9exwd6dYC35o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+  My second milestone was to assemble the electrical and mechanical parts of the gesture controller. I wanted to build the parts that ensured that the gesture controller was completely sound and would not give me any failures. I accomplished this by first attaching the Arduino Nano to a breadboard and connecting it to the accelerometer. Basically, the accelerometer is a component that detects the X, Y, and Z positions of the breadboard. This is vital in order to determine the gestures of the controller. Next, I connected the bluetooth module to the Arduino Nano, so that I could send the values from the accelerometer. Finally, I connected the Arduino Nano to a 9 Volt battery in order to power the whole board.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  The technical side of what is happening within the controller is as follows. Power from the 9V battery goes to the Arduino Nano. The Nano in turn powers on the accelerometer through its wiring. The accelerometer picks up the data (XYZ position) of the breadboard, and then sends the data to the Bluetooth Module. The Bluetooth module then sends the data to the other bluetooth module on the robot car itself.
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
--->
+  Some challenges I faced was powering the module. When I attempted to power the module for the first time, I discovered that instead of turning the module on, all the happened was that the battery overheated. I solved this problem when I discovered that the solder joint wasn't properly created. As a result, I resoldered the connection, and the device started working.
+
+  Going forward, I plan to code the robot software and the gesture controller software. By doing this, I will be able to succesfully transfer the data and get the robot car to move based on the gestures. Once I complete that milestone, I plan on adding a sensor to the robot that will detect obstacles and overide manual controls to prevent the robot car from crashing.
 # First Milestone: 6/14/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
