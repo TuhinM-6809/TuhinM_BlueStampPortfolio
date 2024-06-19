@@ -302,9 +302,10 @@ void loop(){
 | Arduino IDE | Used to code the functionalities of the robot | $0.00 | <a href="https://www.arduino.cc/en/software"> Link </a> |
 
 
-Other Resources/Examples
+**Other Resources/Examples**
 - [Team PSI](https://www.youtube.com/watch?v=OkHR1BZCcqA)
 - [Hackster.io](https://www.hackster.io/embeddedlab786/hand-gesture-control-robot-via-bluetooth-94b13d#story)
+- [Instructables](https://www.instructables.com/Arduino-Two-Way-Communication-Via-Bluetooth-HC-05/)
 
 # Arduino Starter Project: 6/12/24
 
