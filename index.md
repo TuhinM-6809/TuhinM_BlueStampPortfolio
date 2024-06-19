@@ -29,6 +29,10 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5GENIZWkGWU?si=ucHo9exwd6dYC35o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+***Images***
+<img src="https://your-image-url.type" width="100" height="100">
+<img src="https://your-image-url.type" width="100" height="100">
+
   My second milestone was to assemble the electrical and mechanical parts of the gesture controller. I wanted to build the parts that ensured that the gesture controller was completely sound and would not give me any failures. I accomplished this by first attaching the Arduino Nano to a breadboard and connecting it to the accelerometer. Basically, the accelerometer is a component that detects the X, Y, and Z positions of the breadboard. This is vital in order to determine the gestures of the controller. Next, I connected the bluetooth module to the Arduino Nano, so that I could send the values from the accelerometer. Finally, I connected the Arduino Nano to a 9 Volt battery in order to power the whole board.
 
   The technical side of what is happening within the controller is as follows. Power from the 9V battery goes to the Arduino Nano. The Nano in turn powers on the accelerometer through its wiring. The accelerometer picks up the data (XYZ position) of the breadboard, and then sends the data to the Bluetooth Module. The Bluetooth module then sends the data to the other bluetooth module on the robot car itself.
@@ -40,7 +44,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Images
+***Images***
 <img src="PXL_20240617_203326945.jpg" width="400" height="300">
 <img src="PXL_20240617_203346206.jpg" width="400" height="300">
 
@@ -56,7 +60,7 @@
 
 # Schematics 
 
-![Headstone Image](how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png)
+<img src="how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png" width="600" height="400">
 
 # Code
 
