@@ -15,6 +15,10 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# Images
+<img src="https://your-image-url.type" width="100" height="100">
+<img src="https://your-image-url.type" width="100" height="100">
+
   My final milestone was to succefully connect the gesture controller to the robot car and ensure that all functions were working properly. I was mainly focusing on the software section for this milestone. I accomplished this by first uploading the robot code to the robot and then the hand gesture code to the robot controller. Following that, I uploaded code to each bluetooth module in order to pair them together
 
   The technical side of what I wrote as part of my code is as follows. First, on the hand gesture side, I printed the accelerometer values from the bluetooth module into the Serial monitor. The accelerometer only gave XYZ values and I needed to convert those values into something the bluetooth module at the other end could use. I accomplished this issue by using if statements. I set a certain angle value as a direction. (eg. 45 degrees forward tilt equals R) As a result, instead of worrying about the three different values, I only had to worry about one character. I did this four times, for each direction. Next, I uploaded code to the robot car that recieved data from the controller, and then activated motors using if statements in order to determine the direction.
@@ -29,7 +33,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5GENIZWkGWU?si=ucHo9exwd6dYC35o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-***Images***
+# Images
 <img src="https://your-image-url.type" width="100" height="100">
 <img src="https://your-image-url.type" width="100" height="100">
 
@@ -44,7 +48,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-***Images***
+# Images
 
 <img src="PXL_20240617_203326945.jpg" width="400" height="300">
 <img src="PXL_20240617_203346206.jpg" width="400" height="300">
