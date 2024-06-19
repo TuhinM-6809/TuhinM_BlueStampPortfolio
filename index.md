@@ -54,7 +54,7 @@
 <img src="PXL_20240617_203346206.jpg" width="300" height="200">
 
 
-  My first milestone was purely mechanical and hardware based. I wanted to completely build all of the electrical and mechanical parts of the robot car. In order to accomplish this, I first attached four motors to a baseplate and wired them to the motor controller. Then, I connected the motor controller to the Arduino Uno and connected the battery pack to the Arduino Uno. Then, I connected all of the motor wires to teh Arduino Uno and the motor controller. Once I did that, I attached the wheels and fastened the top plate to the robot. 
+  My first milestone was purely mechanical and hardware based. I wanted to completely build all of the electrical and mechanical parts of the robot car. In order to accomplish this, I first attached four motors to a baseplate and wired them to the motor controller. Then, I connected the motor controller to the Arduino Uno and connected the battery pack to the Arduino Uno. Then, I connected all of the motor wires to the Arduino Uno and the motor controller. Once I did that, I attached the wheels and fastened the top plate to the robot. 
 
   The technical side of what is happening within the robot is that the power from the battery pack travels to the Arduino Uno which provides power to the motor controller. Then, the motor controller provides power to the motors, enabling them to run. 
   
