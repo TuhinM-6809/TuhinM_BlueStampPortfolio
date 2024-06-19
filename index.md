@@ -60,7 +60,7 @@
 
 # Code
 
-Test Code for Running Motors
+***Test Code for Running Motors***
 ```c++
 //Test Code for Running Motors
 int In1 = 7; //Defining Digital Pins for Motors
@@ -97,7 +97,7 @@ void loop()
 }
 ```
 
-Code for the Robot
+# Code for the Robot
 ```c++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
@@ -180,7 +180,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 }
 ```
 
-Code for the Gesture Controller
+***Code for the Gesture Controller***
 ```C++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(3, 2); // RX, TX
@@ -260,7 +260,7 @@ void Read_accelerometer(){
 
 ```
 
-Code for the Bluetooth Connection
+***Code for the Bluetooth Connection***
 ```C++
 #include <SoftwareSerial.h>
 
@@ -302,7 +302,7 @@ void loop(){
 | Arduino IDE | Used to code the functionalities of the robot | $0.00 | <a href="https://www.arduino.cc/en/software"> Link </a> |
 
 
-**Other Resources/Examples**
+# Other Resources/Examples
 - [Team PSI](https://www.youtube.com/watch?v=OkHR1BZCcqA)
 - [Hackster.io](https://www.hackster.io/embeddedlab786/hand-gesture-control-robot-via-bluetooth-94b13d#story)
 - [Instructables](https://www.instructables.com/Arduino-Two-Way-Communication-Via-Bluetooth-HC-05/)
