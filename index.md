@@ -68,7 +68,7 @@
 
 <details>
 
-<summary> Test Code for Running Motors </summary>
+<summary>Test Code for Running Motors </summary>
   
 ```c++
 int In1 = 7; //Defining Digital Pins for Motors
@@ -193,10 +193,9 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 ```
 </details>
 
-
-<details>  
-
-<summary>Code for the Gesture Controller</summary>
+<details>
+  
+<summary> Code for the Gesture Controller </summary>
   
 ```C++
 #include <SoftwareSerial.h>
@@ -280,7 +279,7 @@ void Read_accelerometer(){
 
 <details>
 <summary>Code for the Bluetooth Connection</summary>
-  
+
 ```C++
 #include <SoftwareSerial.h>
 
@@ -300,7 +299,6 @@ void loop(){
     Bluetooth.write(Serial.read());
 }
 ```
-
 </details>
 
 # Bill of Materials
