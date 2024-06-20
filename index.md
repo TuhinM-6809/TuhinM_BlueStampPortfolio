@@ -70,7 +70,7 @@
 
 <summary>Test Code for Running Motors </summary>
   
-```c++
+```
 int In1 = 7; //Defining Digital Pins for Motors
 int In2 = 8;
 int In3 = 4;
@@ -110,7 +110,7 @@ void loop()
 
 <summary>Code for the Robot</summary>
   
-```c++
+```
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
 
@@ -197,7 +197,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
   
 <summary> Code for the Gesture Controller </summary>
   
-```C++
+```
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(3, 2); // RX, TX
 
@@ -273,14 +273,13 @@ void Read_accelerometer(){
   Serial.print("\t");
   Serial.println(AcZ); 
 }
-
 ```
 </details>
 
 <details>
 <summary>Code for the Bluetooth Connection</summary>
 
-```C++
+```
 #include <SoftwareSerial.h>
 
 SoftwareSerial Bluetooth(3, 2);
