@@ -65,8 +65,10 @@
 <img src="how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png" width="700" height="400">
 
 # Code
+<details>
+  
+<summary> Test Code for Running Motors </summary>
 
-### Test Code for Running Motors
 ```c++
 int In1 = 7; //Defining Digital Pins for Motors
 int In2 = 8;
@@ -101,6 +103,7 @@ void loop()
 
 }
 ```
+</details>
 
 ### Code for the Robot
 ```c++
