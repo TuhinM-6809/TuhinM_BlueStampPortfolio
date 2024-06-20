@@ -1,5 +1,5 @@
-theme: jekyll-theme-slate
-#hacker
+theme: jekyll-theme-hacker
+#slate
 #leap-day
 #cayman
 markdown: kramdown
