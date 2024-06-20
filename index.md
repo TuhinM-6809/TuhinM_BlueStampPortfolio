@@ -65,7 +65,9 @@
 <img src="how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png" width="700" height="400">
 
 # Code
+
 <details>
+
 <summary> Test Code for Running Motors </summary>
   
 ```c++
@@ -105,6 +107,7 @@ void loop()
 </details>
 
 <details>
+
 <summary>Code for the Robot</summary>
   
 ```c++
@@ -192,6 +195,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 
 
 <details>  
+
 <summary>Code for the Gesture Controller</summary>
   
 ```C++
