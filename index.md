@@ -4,7 +4,7 @@
 |:--:|:--:|:--:|:--:|
 | Tuhin M | Bellarmine College Preparatory | Electrical Engineering and Computer Science | Rising Sophomore |
 
-# Gesture Controlled Robot :+1:
+# Gesture :wave: Controlled :joystick: Robot :robot: Car :car:
 
 <img src="" width="200" height="250">
 
