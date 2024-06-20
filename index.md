@@ -66,7 +66,7 @@
 
 # Code
 
-## Test Code for Running Motors
+### Test Code for Running Motors
 ```c++
 int In1 = 7; //Defining Digital Pins for Motors
 int In2 = 8;
@@ -102,7 +102,7 @@ void loop()
 }
 ```
 
-## Code for the Robot
+### Code for the Robot
 ```c++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
@@ -185,7 +185,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 }
 ```
 
-## Code for the Gesture Controller
+### Code for the Gesture Controller
 ```C++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(3, 2); // RX, TX
@@ -265,7 +265,7 @@ void Read_accelerometer(){
 
 ```
 
-## Code for the Bluetooth Connection
+### Code for the Bluetooth Connection
 ```C++
 #include <SoftwareSerial.h>
 
