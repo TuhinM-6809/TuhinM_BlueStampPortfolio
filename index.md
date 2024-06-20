@@ -299,6 +299,7 @@ void loop(){
     Bluetooth.write(Serial.read());
 }
 ```
+
 </details>
 
 # Bill of Materials
