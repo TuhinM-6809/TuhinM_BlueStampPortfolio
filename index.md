@@ -66,9 +66,7 @@
 
 # Code
 
-<details>
-
-<summary>Test Code for Running Motors </summary>
+### Test Code for Running Motors
   
 ```c++
 int In1 = 7; //Defining Digital Pins for Motors
@@ -104,8 +102,6 @@ void loop()
 
 }
 ```
-
-</details>
 
 ### Code for the Robot
   
