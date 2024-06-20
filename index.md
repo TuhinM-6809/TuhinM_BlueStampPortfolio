@@ -12,7 +12,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Images
+## Images
 <img src="https://your-image-url.type" width="100" height="100">
 <img src="https://your-image-url.type" width="100" height="100">
 
@@ -30,7 +30,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5GENIZWkGWU?si=ucHo9exwd6dYC35o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Images
+## Images
 <img src="https://your-image-url.type" width="100" height="100">
 <img src="https://your-image-url.type" width="100" height="100">
 
@@ -45,7 +45,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Images
+## Images
 
 <img src="PXL_20240617_203326945.jpg" width="300" height="200">
 <img src="PXL_20240617_203346206.jpg" width="300" height="200">
@@ -66,7 +66,7 @@
 
 # Code
 
-***Test Code for Running Motors***
+## Test Code for Running Motors
 ```c++
 int In1 = 7; //Defining Digital Pins for Motors
 int In2 = 8;
@@ -102,7 +102,7 @@ void loop()
 }
 ```
 
-***Code for the Robot***
+## Code for the Robot
 ```c++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
@@ -185,7 +185,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 }
 ```
 
-***Code for the Gesture Controller***
+## Code for the Gesture Controller
 ```C++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(3, 2); // RX, TX
@@ -265,7 +265,7 @@ void Read_accelerometer(){
 
 ```
 
-***Code for the Bluetooth Connection***
+## Code for the Bluetooth Connection
 ```C++
 #include <SoftwareSerial.h>
 
