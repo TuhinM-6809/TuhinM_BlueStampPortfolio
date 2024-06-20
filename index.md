@@ -6,7 +6,7 @@
 
 # Gesture Controlled Robot
 
-![Headstone Image](Tuhin_M.JPG)
+<img src="Tuhin_M.JPG" width="100" height="100">
 
 # Final Milestone 6/19/24
 
