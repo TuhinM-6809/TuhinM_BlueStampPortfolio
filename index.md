@@ -4,7 +4,7 @@
 |:--:|:--:|:--:|:--:|
 | Tuhin M | Bellarmine College Preparatory | Electrical Engineering and Computer Science | Rising Sophomore |
 
-# Gesture :wave: Controlled :joystick: Robot :robot: Car :car:
+# Gesture 👋 Controlled 🕹️ Robot 🤖 Car 🚗
 
 <img src="" width="200" height="250">
 
@@ -106,6 +106,7 @@ void loop()
 ```
 </details>
 
+<!--
 <details>
 
 <summary> Code for the Robot </summary>
@@ -192,7 +193,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 }
 ```
 </details>
-
+-->
 <details>
   
 <summary> Code for the Gesture Controller </summary>
