@@ -105,7 +105,10 @@ void loop()
 ```
 </details>
 
-### Code for the Robot
+<details>
+
+<summary>Code for the Robot</summary>
+
 ```c++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
@@ -187,8 +190,12 @@ digitalWrite(in3, LOW); //Left Motor backword Pin
 digitalWrite(in4, LOW); //Left Motor forword Pin 
 }
 ```
+</details>
 
-### Code for the Gesture Controller
+<details>
+  
+<summary>Code for the Gesture Controller</summary>
+  
 ```C++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(3, 2); // RX, TX
@@ -267,8 +274,12 @@ void Read_accelerometer(){
 }
 
 ```
+</details>
 
-### Code for the Bluetooth Connection
+<details>
+  
+<summary>Code for the Bluetooth Connection</summary>
+
 ```C++
 #include <SoftwareSerial.h>
 
@@ -288,6 +299,7 @@ void loop(){
     Bluetooth.write(Serial.read());
 }
 ```
+</details>
 
 # Bill of Materials
 
