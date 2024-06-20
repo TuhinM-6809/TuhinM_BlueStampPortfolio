@@ -104,9 +104,10 @@ void loop()
 
 }
 ```
+
 </details>
 
-<!--
+
 <details>
 
 <summary> Code for the Robot </summary>
@@ -193,7 +194,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 }
 ```
 </details>
--->
+
 <details>
   
 <summary> Code for the Gesture Controller </summary>
@@ -275,9 +276,11 @@ void Read_accelerometer(){
   Serial.println(AcZ); 
 }
 ```
+
 </details>
 
 <details>
+  
 <summary>Code for the Bluetooth Connection</summary>
 
 ```
@@ -299,6 +302,7 @@ void loop(){
     Bluetooth.write(Serial.read());
 }
 ```
+
 </details>
 
 # Bill of Materials
