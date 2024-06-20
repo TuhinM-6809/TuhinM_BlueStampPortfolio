@@ -70,7 +70,7 @@
 
 <summary>Test Code for Running Motors </summary>
   
-```
+```c++
 int In1 = 7; //Defining Digital Pins for Motors
 int In2 = 8;
 int In3 = 4;
@@ -108,9 +108,9 @@ void loop()
 
 <details>
 
-<summary>Code for the Robot</summary>
+<summary> Code for the Robot </summary>
   
-```
+```c++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(2, 3); // RX, TX
 
