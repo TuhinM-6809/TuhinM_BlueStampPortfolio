@@ -6,7 +6,7 @@
 
 # Gesture 👋 Controlled 🕹️ Robot 🤖 Car 🚗
 
-<img src="PXL_20240621_210202101.jpg" width="300" height="200">
+<img src="PXL_20240621_210202101.jpg" width="600" height="400">
 
 # Final Milestone 6/19/24
 
