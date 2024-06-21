@@ -194,10 +194,12 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 ```
 
 </details>
+
+<details>
+
+<summary> Code for the Gesture Controller </summary>
   
-### Code for the Gesture Controller
-  
-```
+```c++
 #include <SoftwareSerial.h>
 SoftwareSerial BT_Serial(3, 2); // RX, TX
 
@@ -275,9 +277,13 @@ void Read_accelerometer(){
 }
 ```
 
-### Code for the Bluetooth Connection
+</details>
 
-```
+<details>
+
+<summary> Code for the Bluetooth Connection </summary>
+
+```c++
 #include <SoftwareSerial.h>
 
 SoftwareSerial Bluetooth(3, 2);
@@ -296,6 +302,8 @@ void loop(){
     Bluetooth.write(Serial.read());
 }
 ```
+
+</details>
 
 # Bill of Materials
 
