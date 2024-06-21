@@ -66,8 +66,6 @@
 
 # Code
 
-<div style="max-height: 200px; overflow-y: scroll;">
-  
 ### Test Code for Running Motors 🦾
 
 ```c++
@@ -104,8 +102,6 @@ void loop()
 
 }
 ```
-
-</div>
 
 ### Code for the Robot Car 🤖🚗
 
