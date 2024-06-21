@@ -10,7 +10,7 @@
 
 # Final Milestone 6/19/24
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Images
 <img src="PXL_20240621_210202101.jpg" width="300" height="200">
@@ -28,7 +28,7 @@
 
 # Second Milestone 6/18/24
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5GENIZWkGWU?si=ucHo9exwd6dYC35o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="600" height="3400" src="https://www.youtube.com/embed/5GENIZWkGWU?si=ucHo9exwd6dYC35o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Images
 <img src="PXL_20240621_210122752.jpg" width="300" height="200">
@@ -43,7 +43,7 @@
   Going forward, I plan to code the robot software and the gesture controller software. By doing this, I will be able to succesfully transfer the data and get the robot car to move based on the gestures. Once I complete that milestone, I plan on adding a sensor to the robot that will detect obstacles and overide manual controls to prevent the robot car from crashing.
 # First Milestone: 6/14/24
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/WIJjrf_RyUc?si=iWhdWPHIjlC2sGut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Images
 
@@ -62,7 +62,7 @@
 
 # Schematics 
 
-<img src="how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png" width="700" height="400">
+<img src="how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png" width="600" height="400">
 
 # Code
 
