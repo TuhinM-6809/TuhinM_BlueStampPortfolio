@@ -2,4 +2,4 @@ theme: jekyll-theme-slate
 #slate
 #leap-day
 #cayman
-markdown: GFM
+markdown: kramdown
