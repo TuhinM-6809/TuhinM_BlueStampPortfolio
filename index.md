@@ -107,7 +107,9 @@ void loop()
 
 </details>
 
-### Code for the Robot
+<details>
+
+<summary> Code for the Robot </summary>
   
 ```c++
 #include <SoftwareSerial.h>
@@ -190,6 +192,8 @@ digitalWrite(in3, LOW); //Left Motor backword Pin
 digitalWrite(in4, LOW); //Left Motor forword Pin 
 }
 ```
+
+</details>
   
 ### Code for the Gesture Controller
   
