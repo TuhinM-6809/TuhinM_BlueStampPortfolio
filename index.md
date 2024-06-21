@@ -6,14 +6,14 @@
 
 # Gesture 👋 Controlled 🕹️ Robot 🤖 Car 🚗
 
-<img src="" width="200" height="250">
+<img src="PXL_20240621_210202101.jpg" width="200" height="250">
 
 # Final Milestone 6/19/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Images
-<img src="https://your-image-url.type" width="100" height="100">
+<img src="PXL_20240621_210202101.jpg" width="100" height="100">
 <img src="https://your-image-url.type" width="100" height="100">
 
   My final milestone was to succefully connect the gesture controller to the robot car and ensure that all functions were working properly. I was mainly focusing on the software section for this milestone. I accomplished this by first uploading the robot code to the robot and then the hand gesture code to the robot controller. Following that, I uploaded code to each bluetooth module in order to pair them together
