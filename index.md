@@ -6,14 +6,14 @@
 
 # Gesture 👋 Controlled 🕹️ Robot 🤖 Car 🚗
 
-<img src="PXL_20240621_210202101.jpg" width="200" height="250">
+<img src="PXL_20240621_210202101.jpg" width="300" height="200">
 
 # Final Milestone 6/19/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Images
-<img src="PXL_20240621_210202101.jpg" width="100" height="100">
+<img src="PXL_20240621_210202101.jpg" width="300" height="200">
 <img src="https://your-image-url.type" width="100" height="100">
 
   My final milestone was to succefully connect the gesture controller to the robot car and ensure that all functions were working properly. I was mainly focusing on the software section for this milestone. I accomplished this by first uploading the robot code to the robot and then the hand gesture code to the robot controller. Following that, I uploaded code to each bluetooth module in order to pair them together
@@ -31,8 +31,8 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5GENIZWkGWU?si=ucHo9exwd6dYC35o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Images
-<img src="PXL_20240621_210122752.jpg" width="100" height="100">
-<img src="PXL_20240621_210132143.jpg" width="100" height="100">
+<img src="PXL_20240621_210122752.jpg" width="300" height="200">
+<img src="PXL_20240621_210132143.jpg" width="300" height="200">
 
   My second milestone was to assemble the electrical and mechanical parts of the gesture controller. I wanted to build the parts that ensured that the gesture controller was completely sound and would not give me any failures. I accomplished this by first attaching the Arduino Nano to a breadboard and connecting it to the accelerometer. Basically, the accelerometer is a component that detects the X, Y, and Z positions of the breadboard. This is vital in order to determine the gestures of the controller. Next, I connected the bluetooth module to the Arduino Nano, so that I could send the values from the accelerometer. Finally, I connected the Arduino Nano to a 9 Volt battery in order to power the whole board.
 
