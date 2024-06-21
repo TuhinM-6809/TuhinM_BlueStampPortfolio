@@ -6,7 +6,7 @@
 
 # Gesture 👋 Controlled 🕹️ Robot 🤖 Car 🚗
 
-<img src="PXL_20240621_210202101.jpg" width="600" height="400">
+<img src="PXL_20240621_210202101.jpg" width="600" height="400" align="center">
 
 # Final Milestone 6/19/24
 
@@ -20,7 +20,7 @@
 
 - The technical side of what I wrote as part of my code is as follows. First, on the hand gesture side, I printed the accelerometer values from the bluetooth module into the Serial monitor. The accelerometer only gave XYZ values and I needed to convert those values into something the bluetooth module at the other end could use. I accomplished this issue by using if statements. I set a certain angle value as a direction. (eg. 45 degrees forward tilt equals R) As a result, instead of worrying about the three different values, I only had to worry about one character. I did this four times, for each direction. Next, I uploaded code to the robot car that recieved data from the controller, and then activated motors using if statements in order to determine the direction.
 
-- ***THE BIGGEST HURDLE OF THE PROJECT***: Bluetooth...
+- ***THE BIGGEST HURDLE OF THE PROJECT***: Bluetooth Connectivity Issues...
     Getting the bluetooth connection between the robot module and the breadboard module was one of the most difficult aspects of this projects. In order to get the two modules paired, I had to research a lot about bluetooth modules, Arduino Nanos, and Arduino UNOs. Eventually, by crossreferencing two sources, I was able to succesfully set the gesture module as the master controller, and the robot module as the recipient of the data. Once I was able to do this, I was able to seamlessly integrate both the robot code and the gesture controller code into one master project. This Bluetooth journey exposed me to Serial Monitors and AT mode. These two attributes are the ones that determine master controllers and pairing for HC05 Bluetooth modules. After following a longwinded process of figuring out how to use AT mode and the Serial Monitor, I was able to succesfully pair the modules together.
 
 - Going forward, I plan on adding some modifications to my project. One idea I have is to add a sensor that will detect whether or not the robot will run into obstacles. Then, the sensor will trigger an autonomous override in the code which will stop the robot from crashing. Another idea I had was to add LED headlights to the robot that would be toggleable or automatically turn on in the dark.
