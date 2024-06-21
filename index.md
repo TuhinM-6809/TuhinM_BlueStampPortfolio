@@ -70,7 +70,7 @@
 
 <summary> Test Code for Running Motors </summary>
 
-### Test Code for Running Motors
+### Test Code for Running Motors 🦾
 
 ```c++
 int In1 = 7; //Defining Digital Pins for Motors
@@ -113,7 +113,7 @@ void loop()
 
 <summary> Code for the Robot Car </summary>
 
-### Code for the Robot Car
+### Code for the Robot Car 🤖🚗
 
 ```c++
 #include <SoftwareSerial.h>
@@ -203,7 +203,7 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 
 <summary> Code for the Gesture Controller </summary>
 
-### Code for the Gesture Controller
+### Code for the Gesture Controller 👋🕹️
 
 ```c++
 #include <SoftwareSerial.h>
@@ -289,7 +289,7 @@ void Read_accelerometer(){
 
 <summary> Code for the Bluetooth Connection </summary>
 
-### Code for the Bluetooth Connection
+### Code for the Bluetooth Connection 🛜
 
 ```c++
 #include <SoftwareSerial.h>
