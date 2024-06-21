@@ -10,9 +10,7 @@
 
 # Final Milestone 6/19/24
 
-<div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Images
 <img src="https://your-image-url.type" width="100" height="100">
@@ -68,10 +66,6 @@
 
 # Code
 
-<details>
-
-<summary> Test Code for Running Motors </summary>
-
 ### Test Code for Running Motors 🦾
 
 ```c++
@@ -108,12 +102,6 @@ void loop()
 
 }
 ```
-
-</details>
-
-<details>
-
-<summary> Code for the Robot Car </summary>
 
 ### Code for the Robot Car 🤖🚗
 
@@ -199,12 +187,6 @@ digitalWrite(in4, LOW); //Left Motor forword Pin
 }
 ```
 
-</details>
-
-<details>
-
-<summary> Code for the Gesture Controller </summary>
-
 ### Code for the Gesture Controller 👋🕹️
 
 ```c++
@@ -285,12 +267,6 @@ void Read_accelerometer(){
 }
 ```
 
-</details>
-
-<details>
-
-<summary> Code for the Bluetooth Connection </summary>
-
 ### Code for the Bluetooth Connection 🛜
 
 ```c++
@@ -312,8 +288,6 @@ void loop(){
     Bluetooth.write(Serial.read());
 }
 ```
-
-</details>
 
 # Bill of Materials
 
