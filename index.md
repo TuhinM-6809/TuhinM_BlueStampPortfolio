@@ -14,7 +14,7 @@
 
 ## Images
 <img src="PXL_20240621_210202101.jpg" width="300" height="200">
-<img src="https://your-image-url.type" width="100" height="100">
+<img src="PXL_20240621_210207835.jpg" width="300" height="200">
 
 - My final milestone was to succefully connect the gesture controller to the robot car and ensure that all functions were working properly. I was mainly focusing on the software section for this milestone. I accomplished this by first uploading the robot code to the robot and then the hand gesture code to the robot controller. Following that, I uploaded code to each bluetooth module in order to pair them together
 
