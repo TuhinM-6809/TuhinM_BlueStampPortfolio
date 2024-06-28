@@ -9,7 +9,7 @@
 <img src="PXL_20240621_210202101.jpg" width="600" height="400" align="center">
 
 # Final Milestone 6/19/24
-<code style="color : blue">text</code>
+<code style="color : aqua">text</code>
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/JfYVwFfUrE0?si=jVOveX24N32w_gOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
