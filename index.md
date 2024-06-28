@@ -8,6 +8,24 @@
 
 <img src="PXL_20240621_210202101.jpg" width="600" height="400" align="center">
 
+# First Modification: 6/28/24
+
+<iframe width="600" height="400" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Images
+
+<img src="" width="300" height="200">
+<img src="" width="300" height="200">
+
+
+- My first modification was to add an ultrasonic sensor to the gesture controlled robot that would detect objects and prevent the robot from colliding into other surronding things. I was mainly focusing on software and coding for this modification because processing the date from the sensor and linking up the sensor to the robot controls through bluetooth would be the main challenges of this undertaking.
+
+- I accomplished this modification by completing the hardware first and then working on the software. First, I looked up documentation on the ultrasonic sensor and how it is used. Then, I wired and added the sensor on a spare breadboard in order to test its capabilities. Once the sensor was assembled, I ran some code to understand what kind of data I was able to recieve from the sensor and how I could use that data. Following the testing of the sensor, I wired it onto the main body of the robot and ran the same test code to test if the sensor would work in tandem with the robot. Then, I edited and modified the code by creating variables and flags to complete the logic required to extract the data from the sensor and apply it to the controls. I used conditionals and loops to continuosly check the data from the sensor and apply that data to the robot's motor controls.
+  
+- Some challenges I faced was that the sensor itself had some difficulty in generating data when an object was too close. I solved this problem by adding an extra parameter to check whether or not an object was in the technical blind spot of the sensor. Another challenge was that the data I recieved from the sensor would often clog the serial monitor, preventing the basic motor controls from working. I solved this problem by adding delays and conditionals. 
+  
+- Going forward, I plan to complete add some LEDs to the robot body that could serve as a visual display of the direction that the robot is moving in. For example, if the motor controller was told to spin the motors forward, an LED would blink at a pre-designated pace. Thus, the user would be able to identify what information the motor controller is recieving from the gesture controller. 
+  
 # Final Milestone 6/19/24
 <!--
 <code style="color : aqua">
