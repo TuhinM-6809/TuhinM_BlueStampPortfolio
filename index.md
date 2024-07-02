@@ -89,8 +89,7 @@
 # Schematics 
 
 <img src="how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png" width="600" height="400">
-
-### Figure 1
+<p>Figure 1</p>
 
 # Code
 
