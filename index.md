@@ -9,17 +9,7 @@
 <img src="PXL_20240621_210202101.jpg" width="600" height="400" align="center">
 
 
-# First Modification: 6/28/24
-
-<iframe width="600" height="400" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Images
-
-<img src="" width="300" height="200">
-<p>Figure 1 (Coming Soon!)</p>
-<img src="" width="300" height="200">
-<p>Figure 2 (Coming Soon!)</p>
-
+# First Modification (Object Detection + Crash Prevention): 6/28/24
 
 - My first modification was to add an ultrasonic sensor to the gesture controlled robot that would detect objects and prevent the robot from colliding into other surronding things. I was mainly focusing on software and coding for this modification because processing the date from the sensor and linking up the sensor to the robot controls through bluetooth would be the main challenges of this undertaking.
 
