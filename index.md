@@ -32,7 +32,7 @@
 
 ## Images
 <img src="PXL_20240621_210202101.jpg" width="300" height="200">
-<p>Figure 3 -- Gesture Controlled Robot Car and Controller without Modifications</p>
+<h3>Figure 2 -- Gesture Controlled Robot Car and Controller without Modifications</h3>
 <img src="PXL_20240621_210207835.jpg" width="300" height="200">
 <p>Figure 4 -- Gesture Controlled Robot Car and Controller without Modifications</p>
 
