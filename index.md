@@ -11,6 +11,11 @@
 
 # First Modification: 7/8/24
 
+<img src="PXL_20240715_232020165.jpg" width="300" height="200">
+<h4>Figure 1 -- Gesture Controlled Robot Car with Ultrasonic Sensor</h4>
+<img src="PXL_20240621_210207835.jpg" width="300" height="200">
+<h4>Figure 2 -- Gesture Controller</h4>
+
 - My first modification was to add an ultrasonic sensor to the gesture controlled robot that would detect objects and prevent the robot from colliding into other surronding things. I was mainly focusing on software and coding for this modification because processing the date from the sensor and linking up the sensor to the robot controls through bluetooth would be the main challenges of this undertaking.
 
 - I accomplished this modification by completing the hardware first and then working on the software. First, I looked up documentation on the ultrasonic sensor and how it is used. Then, I wired and added the sensor on a spare breadboard in order to test its capabilities. Once the sensor was assembled, I ran some code to understand what kind of data I was able to recieve from the sensor and how I could use that data. Following the testing of the sensor, I wired it onto the main body of the robot and ran the same test code to test if the sensor would work in tandem with the robot. Then, I edited and modified the code by creating variables and flags to complete the logic required to extract the data from the sensor and apply it to the controls. I used conditionals and loops to continuosly check the data from the sensor and apply that data to the robot's motor controls.
@@ -32,9 +37,9 @@
 
 ## Images
 <img src="PXL_20240621_210202101.jpg" width="300" height="200">
-<h4>Figure 2 -- Gesture Controlled Robot Car and Controller without Modifications</h4>
+<h4>Figure 3 -- Gesture Controlled Robot Car without Modifications</h4>
 <img src="PXL_20240621_210207835.jpg" width="300" height="200">
-<h4>Figure 3 -- Gesture Controlled Robot Car and Controller without Modifications</h4>
+<h4>Figure 4 -- Gesture Controller without Modifications</h4>
 
 - My final milestone was to succefully connect the gesture controller to the robot car and ensure that all functions were working properly. I was mainly focusing on the software section for this milestone. I accomplished this by first uploading the robot code to the robot and then the hand gesture code to the robot controller. Following that, I uploaded code to each bluetooth module in order to pair them together
 
@@ -52,9 +57,9 @@
 
 ## Images
 <img src="PXL_20240621_210122752.jpg" width="300" height="200">
-<h4>Figure 4 -- Gesture Controller without Modifications</h4>
-<img src="PXL_20240621_210132143.jpg" width="300" height="200">
 <h4>Figure 5 -- Gesture Controller without Modifications</h4>
+<img src="PXL_20240621_210132143.jpg" width="300" height="200">
+<h4>Figure 6 -- Gesture Controller without Modifications</h4>
 
 - My second milestone was to assemble the electrical and mechanical parts of the gesture controller. I wanted to build the parts that ensured that the gesture controller was completely sound and would not give me any failures. I accomplished this by first attaching the Arduino Nano to a breadboard and connecting it to the accelerometer. Basically, the accelerometer is a component that detects the X, Y, and Z positions of the breadboard. This is vital in order to determine the gestures of the controller. Next, I connected the bluetooth module to the Arduino Nano, so that I could send the values from the accelerometer. Finally, I connected the Arduino Nano to a 9 Volt battery in order to power the whole board.
 
@@ -71,9 +76,9 @@
 ## Images
 
 <img src="PXL_20240617_203326945.jpg" width="300" height="200">
-<h4>Figure 6 -- Gesture Controller Robot without Modifications</h4>
+<h4>Figure 7 -- Gesture Controlled Robot without Modifications</h4>
 <img src="PXL_20240617_203346206.jpg" width="300" height="200">
-<h4>Figure 7 -- Gesture Controller Robot without Modifications</h4>
+<h4>Figure 8 -- Gesture Controlled Robot without Modifications</h4>
 
 
 - My first milestone was purely mechanical and hardware based. I wanted to completely build all of the electrical and mechanical parts of the robot car. In order to accomplish this, I first attached four motors to a baseplate and wired them to the motor controller. Then, I connected the motor controller to the Arduino Uno and connected the battery pack to the Arduino Uno. Then, I connected all of the motor wires to the Arduino Uno and the motor controller. Once I did that, I attached the wheels and fastened the top plate to the robot. 
@@ -88,9 +93,9 @@
 # Schematics 
 
 <img src="how_to_make_hand_gesture_control_robot_via_bluetooth_Idj2KLCd3B.png" width="600" height="400">
-<h4>Figure 8 -- Schematics from Hackster.io</h4>
+<h4>Figure 9 -- Schematics from Hackster.io</h4>
 <img src="Wiring Components.png" width="600" height="400">
-<h4>Figure 9 -- Schematics for the Gesture Controller</h4>
+<h4>Figure 10 -- Schematics for the Gesture Controller</h4>
 
 # Code
 
