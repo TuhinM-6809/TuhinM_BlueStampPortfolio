@@ -14,7 +14,7 @@
 <img src="PXL_20240715_232020165.jpg" width="300" height="200">
 <h4>Figure 1 -- Gesture Controlled Robot Car with Ultrasonic Sensor</h4>
 <img src="PXL_20240621_210207835.jpg" width="300" height="200">
-<h4>Figure 2 -- Gesture Controller</h4>
+<h4>Figure 2 -- Gesture Controlled Robot Car with Gesture Controller</h4>
 
 - My first modification was to add an ultrasonic sensor to the gesture controlled robot that would detect objects and prevent the robot from colliding into other surronding things. I was mainly focusing on software and coding for this modification because processing the date from the sensor and linking up the sensor to the robot controls through bluetooth would be the main challenges of this undertaking.
 
@@ -37,9 +37,9 @@
 
 ## Images
 <img src="PXL_20240621_210202101.jpg" width="300" height="200">
-<h4>Figure 3 -- Gesture Controlled Robot Car without Modifications</h4>
+<h4>Figure 3 -- Gesture Controlled Robot Car and Controller without Modifications</h4>
 <img src="PXL_20240621_210207835.jpg" width="300" height="200">
-<h4>Figure 4 -- Gesture Controller without Modifications</h4>
+<h4>Figure 4 -- Gesture Controller Robot Car and Controller without Modifications</h4>
 
 - My final milestone was to succefully connect the gesture controller to the robot car and ensure that all functions were working properly. I was mainly focusing on the software section for this milestone. I accomplished this by first uploading the robot code to the robot and then the hand gesture code to the robot controller. Following that, I uploaded code to each bluetooth module in order to pair them together
 
