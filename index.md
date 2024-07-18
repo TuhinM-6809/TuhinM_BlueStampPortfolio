@@ -99,7 +99,8 @@
 
 # Flowchart for Code Process
 
-<img src="">
+<img src="Algorithm flowchart example (1).png" width="600" height="400">
+<h4>Figure 11 -- Flowchart of the Code Process</h4>
 
 
 # Code
