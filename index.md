@@ -97,6 +97,11 @@
 <img src="Wiring Components.png" width="600" height="400">
 <h4>Figure 10 -- Schematics for the Gesture Controller</h4>
 
+# Flowchart for Code Process
+
+<img src="">
+
+
 # Code
 
 ### Test Code for Running Motors 🦾
